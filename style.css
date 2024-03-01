@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/Users/Aniket/js-practice/restaurant-page/src/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#content {
+    flex: 1;
+    flex-grow: 1;
+    background-color: rgba(0.13,0.13,0.13,0.4);
+    margin: 20px 0px;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.content-1 {
+    height: 430px;
+    width: 80%;
+    border-radius: 20px;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+.content-2 {
+    height: 150px;
+    width: 80%;
+    border-radius: 20px;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+.content-2 > p {
+    font-size: 1rem;
+}
+
+.content-3 {
+    height: 300px;
+    width: 80%;
+    border-radius: 20px;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+.content-3 > p {
+    font-size: 1rem;
+}
+
+.content-4 {
+    height: 250px;
+    width: 80%;
+    border-radius: 20px;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+.content-4 > p {
+    font-size: 1.2rem;
+}
+
+.content-5 {
+    height: 250px;
+    width: 80%;
+    border-radius: 20px;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+.content-5 > p {
+    font-size: 1.2rem;
+}
+
+.content-6 {
+    height: 250px;
+    width: 80%;
+    border-radius: 20px;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+.content-6 > p {
+    font-size: 1.2rem;
+}
+
+header, footer {
+    width: 100%;
+    background-color: rgba(0.13,0.13,0.13,0.4);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    padding: 5px 10px;
+    margin: 0px 20px;
+    background-color: rgba(255, 222, 173, 0.6);
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: navajowhite;
+}
+
+.active {
+    background-color: navajowhite;
+}
+
+h1 {
+    font-family: fantasy;
+    color: navajowhite;
+    margin: 20px 0px;
+}
+
+.content-heading {
+    font-size: 1.5rem;
+    width: fit-content;
+}
+
+.content-body {
+    color: #fff;
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 300;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    gap: 20px; 
+}
+
+.menu-item {
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    margin-bottom: 30px;
+}
+
+.menu-item h3 {
+    margin-top: 0; 
+    color: navajowhite;
+    padding-bottom: 15px;
+}
+
+.menu-item p {
+    margin: 0; 
+    color: #fff;
+    padding-bottom: 15px;
+    
+}
