@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(/Users/Aniket/js-practice/restaurant-page/dist/background.jpg);
+    background-image: url(./background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -154,9 +154,6 @@ button:hover {
     background-color: navajowhite;
 }
 
-.active {
-    background-color: navajowhite;
-}
 
 h1 {
     font-family: fantasy;
